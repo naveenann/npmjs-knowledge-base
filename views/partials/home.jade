@@ -1,0 +1,15 @@
+div(class="pace pace-inactive")
+    div(class="pace-progress",style="width:100%",data-progress-text="100%",data-progress="99")
+        div(class="pace-progress-inner")
+    div(class="pace-activity")
+div(class="wrapper row-offcanvas row-offcanvas-left",style="min-height: 460px")
+    section.content-header.text-center
+        header.header
+            a.logo.text-center(href='http://www.open-search-server.com/')
+                img.icon.col-centered(src='http://107.170.62.61:9090/images/oss_logo.png')
+        form.sidebar-form.col-centered(action='#', method='get')
+            .input-group
+                input.form-control(type='text', name='q', placeholder='Search for documentation, issues and bugs')
+                span.input-group-btn
+                    button#search-btn.btn.btn-flat(type='submit', name='seach')
+                        i.fa.fa-search
