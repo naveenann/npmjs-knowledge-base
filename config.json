@@ -1,8 +1,8 @@
 {
-    "hostname": "localhost",
+    "hostname": "107.170.62.61",
     "port":"9090",
     "indexname": "docu",
     "protocol": "http",
-    "login": "documentation",
+    "login": "naveenann",
     "key": "1811b41422a1474a3d91a77a69de7c77"
 }
