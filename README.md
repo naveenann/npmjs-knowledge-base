@@ -8,7 +8,7 @@ Search Engine for OpenSearchServer based on Express and Angular
 
 ## Configuration
 
-Change the config.js file to connect to OpenSearchServer.
+Change the config.json file to connect to OpenSearchServer.
 
     {
         "hostname": "localhost",
